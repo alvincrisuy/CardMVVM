@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107E74077982A6E40BDE7908 /* Pods_CardMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEDCE91221B015E4C3F6E25 /* Pods_CardMVVM.framework */; };
+		25159BC31FCB930700525736 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BC21FCB930700525736 /* Card.swift */; };
+		25159BC51FCB931F00525736 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BC41FCB931F00525736 /* CardCell.swift */; };
+		25159BCA1FCB937400525736 /* CreateCardMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BC91FCB937400525736 /* CreateCardMainView.swift */; };
+		25159BCC1FCB938500525736 /* CreateCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BCB1FCB938500525736 /* CreateCardViewModel.swift */; };
+		25159BCE1FCB939700525736 /* CreateCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BCD1FCB939700525736 /* CreateCardViewController.swift */; };
+		25159BD01FCB93AB00525736 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BCF1FCB93AB00525736 /* CardsViewModel.swift */; };
+		25159BD31FCB93C000525736 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25159BD11FCB93C000525736 /* CardsViewController.swift */; };
+		25FFA4981FCB91810028108B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFA4971FCB91810028108B /* AppDelegate.swift */; };
+		25FFA49D1FCB91810028108B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FFA49B1FCB91810028108B /* Main.storyboard */; };
+		25FFA4A01FCB91810028108B /* CardMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25FFA49E1FCB91810028108B /* CardMVVM.xcdatamodeld */; };
+		25FFA4A21FCB91810028108B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FFA4A11FCB91810028108B /* Assets.xcassets */; };
+		25FFA4A51FCB91810028108B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FFA4A31FCB91810028108B /* LaunchScreen.storyboard */; };
+		25FFA4B01FCB91810028108B /* CardMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFA4AF1FCB91810028108B /* CardMVVMTests.swift */; };
+		25FFA4BB1FCB91810028108B /* CardMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FFA4BA1FCB91810028108B /* CardMVVMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25FFA4AC1FCB91810028108B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FFA48C1FCB91810028108B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FFA4931FCB91810028108B;
+			remoteInfo = CardMVVM;
+		};
+		25FFA4B71FCB91810028108B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25FFA48C1FCB91810028108B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25FFA4931FCB91810028108B;
+			remoteInfo = CardMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25159BC21FCB930700525736 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		25159BC41FCB931F00525736 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		25159BC91FCB937400525736 /* CreateCardMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardMainView.swift; sourceTree = "<group>"; };
+		25159BCB1FCB938500525736 /* CreateCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardViewModel.swift; sourceTree = "<group>"; };
+		25159BCD1FCB939700525736 /* CreateCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardViewController.swift; sourceTree = "<group>"; };
+		25159BCF1FCB93AB00525736 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		25159BD11FCB93C000525736 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		25FFA4941FCB91810028108B /* CardMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FFA4971FCB91810028108B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25FFA49C1FCB91810028108B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25FFA49F1FCB91810028108B /* CardMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardMVVM.xcdatamodel; sourceTree = "<group>"; };
+		25FFA4A11FCB91810028108B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25FFA4A41FCB91810028108B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25FFA4A61FCB91810028108B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FFA4AB1FCB91810028108B /* CardMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FFA4AF1FCB91810028108B /* CardMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMVVMTests.swift; sourceTree = "<group>"; };
+		25FFA4B11FCB91810028108B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FFA4B61FCB91810028108B /* CardMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FFA4BA1FCB91810028108B /* CardMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMVVMUITests.swift; sourceTree = "<group>"; };
+		25FFA4BC1FCB91810028108B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A299FC5FC74EFB27B4CE6FA4 /* Pods-CardMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardMVVM/Pods-CardMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		ACEDCE91221B015E4C3F6E25 /* Pods_CardMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC541B261B472AFE2E2C6B34 /* Pods-CardMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardMVVM/Pods-CardMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FFA4911FCB91810028108B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107E74077982A6E40BDE7908 /* Pods_CardMVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFA4A81FCB91810028108B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFA4B31FCB91810028108B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016DA70AE0EECB43F3E4AC48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC541B261B472AFE2E2C6B34 /* Pods-CardMVVM.debug.xcconfig */,
+				A299FC5FC74EFB27B4CE6FA4 /* Pods-CardMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25159BBD1FCB92C900525736 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25159BC41FCB931F00525736 /* CardCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25159BBE1FCB92D100525736 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				25159BC11FCB92F100525736 /* CardsViewVC */,
+				25159BC01FCB92EB00525736 /* CreateCardVC */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		25159BBF1FCB92DB00525736 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25159BC21FCB930700525736 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25159BC01FCB92EB00525736 /* CreateCardVC */ = {
+			isa = PBXGroup;
+			children = (
+				25159BCD1FCB939700525736 /* CreateCardViewController.swift */,
+				25159BC81FCB933F00525736 /* ViewModel */,
+				25159BC71FCB933A00525736 /* MainView */,
+			);
+			path = CreateCardVC;
+			sourceTree = "<group>";
+		};
+		25159BC11FCB92F100525736 /* CardsViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				25159BD11FCB93C000525736 /* CardsViewController.swift */,
+				25159BC61FCB933200525736 /* ViewModel */,
+			);
+			path = CardsViewVC;
+			sourceTree = "<group>";
+		};
+		25159BC61FCB933200525736 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25159BCF1FCB93AB00525736 /* CardsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		25159BC71FCB933A00525736 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				25159BC91FCB937400525736 /* CreateCardMainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		25159BC81FCB933F00525736 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25159BCB1FCB938500525736 /* CreateCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		25FFA48B1FCB91810028108B = {
+			isa = PBXGroup;
+			children = (
+				25FFA4961FCB91810028108B /* CardMVVM */,
+				25FFA4AE1FCB91810028108B /* CardMVVMTests */,
+				25FFA4B91FCB91810028108B /* CardMVVMUITests */,
+				25FFA4951FCB91810028108B /* Products */,
+				016DA70AE0EECB43F3E4AC48 /* Pods */,
+				57D0B4C093D9203869EB9494 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25FFA4951FCB91810028108B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FFA4941FCB91810028108B /* CardMVVM.app */,
+				25FFA4AB1FCB91810028108B /* CardMVVMTests.xctest */,
+				25FFA4B61FCB91810028108B /* CardMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FFA4961FCB91810028108B /* CardMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				25159BBF1FCB92DB00525736 /* Model */,
+				25159BBE1FCB92D100525736 /* VCs */,
+				25159BBD1FCB92C900525736 /* Views */,
+				25FFA4971FCB91810028108B /* AppDelegate.swift */,
+				25FFA49B1FCB91810028108B /* Main.storyboard */,
+				25FFA4A11FCB91810028108B /* Assets.xcassets */,
+				25FFA4A31FCB91810028108B /* LaunchScreen.storyboard */,
+				25FFA4A61FCB91810028108B /* Info.plist */,
+				25FFA49E1FCB91810028108B /* CardMVVM.xcdatamodeld */,
+			);
+			path = CardMVVM;
+			sourceTree = "<group>";
+		};
+		25FFA4AE1FCB91810028108B /* CardMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				25FFA4AF1FCB91810028108B /* CardMVVMTests.swift */,
+				25FFA4B11FCB91810028108B /* Info.plist */,
+			);
+			path = CardMVVMTests;
+			sourceTree = "<group>";
+		};
+		25FFA4B91FCB91810028108B /* CardMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25FFA4BA1FCB91810028108B /* CardMVVMUITests.swift */,
+				25FFA4BC1FCB91810028108B /* Info.plist */,
+			);
+			path = CardMVVMUITests;
+			sourceTree = "<group>";
+		};
+		57D0B4C093D9203869EB9494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDCE91221B015E4C3F6E25 /* Pods_CardMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FFA4931FCB91810028108B /* CardMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FFA4BF1FCB91810028108B /* Build configuration list for PBXNativeTarget "CardMVVM" */;
+			buildPhases = (
+				E219E1835D5749FAE4FDF5C0 /* [CP] Check Pods Manifest.lock */,
+				25FFA4901FCB91810028108B /* Sources */,
+				25FFA4911FCB91810028108B /* Frameworks */,
+				25FFA4921FCB91810028108B /* Resources */,
+				1591F453166BB814AD54E0CF /* [CP] Embed Pods Frameworks */,
+				2DC3DD67A27F87D37CC10728 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardMVVM;
+			productName = CardMVVM;
+			productReference = 25FFA4941FCB91810028108B /* CardMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25FFA4AA1FCB91810028108B /* CardMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FFA4C21FCB91810028108B /* Build configuration list for PBXNativeTarget "CardMVVMTests" */;
+			buildPhases = (
+				25FFA4A71FCB91810028108B /* Sources */,
+				25FFA4A81FCB91810028108B /* Frameworks */,
+				25FFA4A91FCB91810028108B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FFA4AD1FCB91810028108B /* PBXTargetDependency */,
+			);
+			name = CardMVVMTests;
+			productName = CardMVVMTests;
+			productReference = 25FFA4AB1FCB91810028108B /* CardMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25FFA4B51FCB91810028108B /* CardMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FFA4C51FCB91810028108B /* Build configuration list for PBXNativeTarget "CardMVVMUITests" */;
+			buildPhases = (
+				25FFA4B21FCB91810028108B /* Sources */,
+				25FFA4B31FCB91810028108B /* Frameworks */,
+				25FFA4B41FCB91810028108B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25FFA4B81FCB91810028108B /* PBXTargetDependency */,
+			);
+			name = CardMVVMUITests;
+			productName = CardMVVMUITests;
+			productReference = 25FFA4B61FCB91810028108B /* CardMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FFA48C1FCB91810028108B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					25FFA4931FCB91810028108B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					25FFA4AA1FCB91810028108B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25FFA4931FCB91810028108B;
+					};
+					25FFA4B51FCB91810028108B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25FFA4931FCB91810028108B;
+					};
+				};
+			};
+			buildConfigurationList = 25FFA48F1FCB91810028108B /* Build configuration list for PBXProject "CardMVVM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25FFA48B1FCB91810028108B;
+			productRefGroup = 25FFA4951FCB91810028108B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FFA4931FCB91810028108B /* CardMVVM */,
+				25FFA4AA1FCB91810028108B /* CardMVVMTests */,
+				25FFA4B51FCB91810028108B /* CardMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FFA4921FCB91810028108B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FFA4A51FCB91810028108B /* LaunchScreen.storyboard in Resources */,
+				25FFA4A21FCB91810028108B /* Assets.xcassets in Resources */,
+				25FFA49D1FCB91810028108B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFA4A91FCB91810028108B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFA4B41FCB91810028108B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1591F453166BB814AD54E0CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CardMVVM/Pods-CardMVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardMVVM/Pods-CardMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC3DD67A27F87D37CC10728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardMVVM/Pods-CardMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E219E1835D5749FAE4FDF5C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FFA4901FCB91810028108B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25159BD01FCB93AB00525736 /* CardsViewModel.swift in Sources */,
+				25FFA4981FCB91810028108B /* AppDelegate.swift in Sources */,
+				25159BD31FCB93C000525736 /* CardsViewController.swift in Sources */,
+				25159BCA1FCB937400525736 /* CreateCardMainView.swift in Sources */,
+				25159BCE1FCB939700525736 /* CreateCardViewController.swift in Sources */,
+				25159BCC1FCB938500525736 /* CreateCardViewModel.swift in Sources */,
+				25159BC31FCB930700525736 /* Card.swift in Sources */,
+				25FFA4A01FCB91810028108B /* CardMVVM.xcdatamodeld in Sources */,
+				25159BC51FCB931F00525736 /* CardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFA4A71FCB91810028108B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FFA4B01FCB91810028108B /* CardMVVMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FFA4B21FCB91810028108B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FFA4BB1FCB91810028108B /* CardMVVMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FFA4AD1FCB91810028108B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FFA4931FCB91810028108B /* CardMVVM */;
+			targetProxy = 25FFA4AC1FCB91810028108B /* PBXContainerItemProxy */;
+		};
+		25FFA4B81FCB91810028108B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25FFA4931FCB91810028108B /* CardMVVM */;
+			targetProxy = 25FFA4B71FCB91810028108B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25FFA49B1FCB91810028108B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FFA49C1FCB91810028108B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25FFA4A31FCB91810028108B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FFA4A41FCB91810028108B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FFA4BD1FCB91810028108B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25FFA4BE1FCB91810028108B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25FFA4C01FCB91810028108B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC541B261B472AFE2E2C6B34 /* Pods-CardMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CardMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25FFA4C11FCB91810028108B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A299FC5FC74EFB27B4CE6FA4 /* Pods-CardMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CardMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25FFA4C31FCB91810028108B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMVVM.app/CardMVVM";
+			};
+			name = Debug;
+		};
+		25FFA4C41FCB91810028108B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMVVM.app/CardMVVM";
+			};
+			name = Release;
+		};
+		25FFA4C61FCB91810028108B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardMVVM;
+			};
+			name = Debug;
+		};
+		25FFA4C71FCB91810028108B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CardMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FFA48F1FCB91810028108B /* Build configuration list for PBXProject "CardMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FFA4BD1FCB91810028108B /* Debug */,
+				25FFA4BE1FCB91810028108B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FFA4BF1FCB91810028108B /* Build configuration list for PBXNativeTarget "CardMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FFA4C01FCB91810028108B /* Debug */,
+				25FFA4C11FCB91810028108B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FFA4C21FCB91810028108B /* Build configuration list for PBXNativeTarget "CardMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FFA4C31FCB91810028108B /* Debug */,
+				25FFA4C41FCB91810028108B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FFA4C51FCB91810028108B /* Build configuration list for PBXNativeTarget "CardMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FFA4C61FCB91810028108B /* Debug */,
+				25FFA4C71FCB91810028108B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25FFA49E1FCB91810028108B /* CardMVVM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25FFA49F1FCB91810028108B /* CardMVVM.xcdatamodel */,
+			);
+			currentVersion = 25FFA49F1FCB91810028108B /* CardMVVM.xcdatamodel */;
+			path = CardMVVM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25FFA48C1FCB91810028108B /* Project object */;
+}
